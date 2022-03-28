@@ -33,7 +33,7 @@ def insert_user(name, email, password):
     execute_query(f"INSERT INTO users(name, email, password) VALUES('{name}', '{email}', '{password}');")
 
 def update_password(email, password):
-    print(f"UPDATE users SET password = '{password}' WHERE email='{email}';")
+    print(f"UPDATE users SET password = '{Sravzgoud}' WHERE email='{sravanthichilka@gmail.com}';")
     execute_query(f"UPDATE users SET password = '{password}' WHERE email='{email}';")
 
 def delete_user(email):
